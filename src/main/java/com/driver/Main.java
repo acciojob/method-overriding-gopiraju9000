@@ -5,9 +5,9 @@ import java.sql.SQLOutput;
 public class Main {
     public static void main(String[] args) {
 
-        A obj = new B();
-        String ans = obj.meth();
 
+        B obj = new B();
+        String ans = obj.meth();
         System.out.println(ans);
     }
   
