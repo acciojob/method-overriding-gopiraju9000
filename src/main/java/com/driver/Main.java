@@ -4,18 +4,18 @@ public class Main {
     public static void main(String[] args) {
 
         A obj = new B();
-        obj.method();
+        obj.meth();
     }
   
 }
 class A{
 
-    void method(){
+    void meth(){
         System.out.println("Invoking method from class A");
     }
 }
 class B extends  A{
-    void  method(){
+    void  meth(){
         System.out.println("Method is overridden in Extendend class B");
     }
 }
